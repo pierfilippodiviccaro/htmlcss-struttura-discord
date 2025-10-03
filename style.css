@@ -1,116 +1,176 @@
-*{
+* {
     border: 0;
     box-sizing: border-box;
     margin: 0 auto;
-    }
+}
 
-    .container {
-        max-width: 800px;
-        width: 100%;
-    }
+.container {
+    max-width: 800px;
+    width: 100%;
+}
 
-    .d-flex {
-        display: flex;
-    }
+.d-flex {
+    display: flex;
+}
 
-    .row-reverse {
-        flex-direction: row-reverse;
-    }
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.menu {
+    background-color: yellow;
+    display: flex;
     
-    .header{
-        display: flex;
-        flex-direction: row;
-        background-color: aqua;
-        height: 100px;
-        justify-content: center;
-        align-items: center;
-        border-bottom: 2px solid black;
-        }
+}
 
-        .menu {
-            background-color: yellow;
-            display: flex;
-        }
+.text {
+    width: 100%;
+    
+}
 
-        .text{
-            width: 100%;
-        }
+.bg1 {
+    display: flex;
+    background-color: blue;
+    height: 210px;
+    align-items: center;
+    border-bottom: 2px solid black;
 
-        .bg1{
-            display: flex;
-            background-color: blue;
-            height: 210px;
-          align-items: center;
-          border-bottom: 2px solid black;
-            
-        }
-        .square{
-            display: flex;
-            height: 80%;
-            width: 400px;
-            background-color: aquamarine;
-        }
-        .bg2{
-            display: flex;
-            flex-direction: row;
-            min-height: 400px;
-        align-items: center;
-        flex-wrap: wrap;    
-        background-color: #8a2be2
-            
-        
-        }
-        
-        .second-square{
-            display: flex;
-            background-color: cadetblue;
-            height: 200px;
-            width: 100%;
-             
-         
+}
 
-        }
-        .second-square2{
-            display: flex;
-            background-color: chocolate;
-            width: 25%;
-            }
+.square {
+    display: flex;
+    height: 80%;
+    width: 400px;
+    background-color: aquamarine;
+}
 
-            .bg3{
-                display: flex;
-                height: 200px;
-                background-color: gray;
-            }
+.bg2 {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #8a2be2
+}
 
-            .bg4{
-                display: flex;
-                height: 200px;
-                background-color: red;
-            }
-        .bg5{
-            display: flex;
-            height: 200px;
-            background-color: bisque;
-        }
-        .bg6{
-            display: flex;
-            height: 200px;
-            background-color: brown;
-        }
-        .bg7{
-            display: flex;
-            height: 70px;
-            background-color: blueviolet;
-            align-items: end;
-            
-           
-        }
-        .footer1{
-            display: flex;
-            background-color: bisque;
-            justify-content: space-between;
-            
-        }
-       
-            
-           
+.second-square {
+    display: flex;
+    background-color: cadetblue;
+    height: 200px;
+    width: 100%;
+    border: 1px dashed black;
+
+
+
+}
+
+.second-square2 {
+    display: flex;
+    background-color: chocolate;
+    width: 50%;
+    border: 1px dashed black;
+}
+
+.bg3 {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #aaf106
+}
+
+.third-square {
+    display: flex;
+    background-color: cadetblue;
+    height: 200px;
+    width: 100%;
+}
+
+.third-square2 {
+    display: flex;
+    background-color: chocolate;
+    width: 45%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg4 {
+    display: flex;
+    height: 200px;
+    background-color: red;
+}
+
+.bg5 {
+    display: flex;
+    height: 200px;
+    background-color: bisque;
+}
+
+.bg6 {
+    display: flex;
+    height: 200px;
+    background-color: brown;
+}
+
+.bg7 {
+    
+    height: 70px;
+    background-color: blueviolet;
+    
+
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
