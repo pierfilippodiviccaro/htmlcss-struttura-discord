@@ -124,50 +124,31 @@
     background-color: aquamarine;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bg6{
+    display: flex;
+    min-height: 300px;
+    align-items: center;
+    background-color: black;
+}
+.fifth-square{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+}
+.sixth-square{
+    display: flex;
+    width: 40%;
+    background-color: crimson;
+    border: 1px dashed black;
+}
 
 .bg7 {
     
     height: 70px;
     background-color: blueviolet;
+    
+    ;
     
 
 
@@ -175,6 +156,27 @@
 
 .footer{
     display: flex;
-    justify-content: center;
-    align-items: end;
+    flex-direction: row;
+    justify-content: space-around;
+   text-align: center;
+   background-color: aquamarine;
+   max-width: 50%;
+   border-radius: 5px;
+    
+    }
+    .footer1{
+        margin: 0;
+        width: 100%;
+    }
+    .footer2{
+        margin: 0;
+        width: 100%;
+    }
+
+
+.self{
+    align-self: flex-end;
+}
+.end{
+    text-align: end;
 }
